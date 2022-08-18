@@ -9,7 +9,7 @@
     /* Primary Colors */
     --orange: hsl(31, 77%, 52%);
     --cyan: hsl(184, 100%, 22%);
-    --dark-cyan: dark cyan: hsl(179, 100%, 13%);
+    --dark-cyan: hsl(179, 100%, 13%);
 
     /* Neutral Colors */
     --p-color: hsla(0, 0%, 100%, 0.75);
@@ -26,14 +26,13 @@
 
 body{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--light-gray);
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 1rem;
 }
 
 a{
@@ -43,4 +42,13 @@ a{
 .container{
     width: 1440px;
     height: 95vh;
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 1200px){
+    .container{
+        width: 100vw;
+        height: 95vh;
+        border: 1px solid red;
+    }
 }

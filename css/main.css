@@ -1,0 +1,69 @@
+/* *Container */
+main.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* *Cards */
+main .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: 1fr;
+}
+
+main .cards .card{
+    padding: 3rem;
+    background-color: rgb(65, 10, 10);
+}
+
+    /* Cards Header */
+main .cards .card .card-header h2{
+    color: var(--light-gray);
+    font-size: 2.75rem;
+}
+
+    /* Card Content */
+main .cards .card .card-content p{
+    color: var(--p-color);
+    line-height: 1.8;
+}
+main .cards .card .card-content a{
+    display: inline-block;
+    background-color: var(--light-gray);
+    padding: .75rem 2rem;
+    border-radius: 50px;
+    margin-top: 5rem;
+    border: 2px solid var(--light-gray);
+}
+main .cards .card .card-content a:hover{
+    background-color: transparent;
+    color: var(--light-gray);
+}
+
+/* *Card Sedans */
+main .cards .card-sedans{
+    background-color: var(--orange);
+    border-radius: 10px 0 0 10px;
+}
+main .cards .card-sedans .card-content a{
+    color: var(--orange);
+}
+
+/* *Card SUVs */
+main .cards .card-suvs{
+    background-color: var(--cyan);
+}
+main .cards .card-suvs .card-content a{
+    color: var(--cyan);
+}
+
+/* *Card Luxury */
+main .cards .card-luxury{
+    background-color: var(--dark-cyan);
+    border-radius: 0 10px 10px 0;
+}
+main .cards .card-luxury .card-content a{
+    color: var(--dark-cyan);
+}
