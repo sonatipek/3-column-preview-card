@@ -1,0 +1,29 @@
+@media only screen and (max-width: 910px){
+    /* *Container */
+    .container{
+        width: 100vw;
+    }
+
+    /* *Cards */
+    main .cards{
+        grid-template-columns: repeat(3, 250px);
+    }
+    main .cards .card{
+        padding: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    /* *Container */
+    .container{
+        width: 100vw;
+    }
+
+    /* *Cards */
+    main .cards{
+        grid-template-columns: repeat(3, 250px);
+    }
+    main .cards .card{
+        padding: 1.5rem;
+    }
+}

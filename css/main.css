@@ -15,7 +15,6 @@ main .cards{
 
 main .cards .card{
     padding: 3rem;
-    background-color: rgb(65, 10, 10);
 }
 
     /* Cards Header */

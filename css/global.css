@@ -41,14 +41,11 @@ a{
 
 .container{
     width: 1440px;
-    height: 95vh;
-    border: 1px solid red;
+    min-height: 95vh;
 }
 
 @media only screen and (max-width: 1200px){
     .container{
         width: 100vw;
-        height: 95vh;
-        border: 1px solid red;
     }
 }
