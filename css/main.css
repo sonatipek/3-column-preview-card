@@ -66,3 +66,19 @@ main .cards .card-luxury{
 main .cards .card-luxury .card-content a{
     color: var(--dark-cyan);
 }
+
+/* *Footer */
+main footer{
+    margin-top: 2rem;
+}
+
+main footer .attribution{ 
+    font-size: 11px;
+    text-align: center;
+}
+main footer .attribution a{
+     color: var(--cyan);
+}
+main footer .attribution a:hover{
+     color: var(--dark-cyan);
+}
