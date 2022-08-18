@@ -48,4 +48,4 @@ Users should be able to:
 
 - Website - [Sonat Saygın İpek](https://www.sonatipek.com)
 - Frontend Mentor - [@sonatipek](https://www.frontendmentor.io/profile/sonatipek)
-- Twitter - [@sonatipke](https://www.twitter.com/sonatipek)
+- Twitter - [@sonatipek](https://www.twitter.com/sonatipek)
